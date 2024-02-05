@@ -352,6 +352,9 @@
     echo "WINE: -GAME FIXES- Fix Yakuza 5 cutscenes audio"
     patch -Np1 < ../patches/game-patches/yakuza5-cutscenes.patch
 
+    echo "WINE: -GAME FIXES- Fix Dragon Age Inquisition controller input"
+    patch -Np1 < ../patches/game-patches/dai-xinput.patch
+
 ### END GAME PATCH SECTION ###
 
 ### (2-4) WINE HOTFIX/BACKPORT SECTION ###
