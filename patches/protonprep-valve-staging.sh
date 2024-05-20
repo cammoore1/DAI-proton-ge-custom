@@ -303,6 +303,9 @@
     echo "WINE: -PENDING- Add WINE_DISABLE_SFN option. (Yakuza 5 cutscenes fix)"
     patch -Np1 < ../patches/wine-hotfixes/pending/ntdll_add_wine_disable_sfn.patch
 
+    echo "WINE: -PENDING- Add TCP_KEEP patch (Star Citizen Launcher 2.0 fix)"
+    patch -Np1 < ../patches/wine-hotfixes/pending/TCP_KEEP-fixup.patch
+
 ### END WINE PENDING UPSTREAM SECTION ###
 
 
